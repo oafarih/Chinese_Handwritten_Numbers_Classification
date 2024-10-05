@@ -37,6 +37,7 @@ The model is a CNN built with PyTorch:
 - **ReLU activation**: Introduce non-linearity.
 - **MaxPool2d layers**: Downsample the feature maps.
 - **BatchNorm2d layers**: Applies normalization with a mean of 0 and a variance of 1
+- **Dropout layers**: Applies regularization by randomly selecting some of the neurons and zero them out before passing to the next layer
 - **Fully connected layers**: Output class probabilities.
 
 ```python
